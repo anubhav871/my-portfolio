@@ -4,11 +4,10 @@ phases:
   build:
     commands:
       - echo Nothing to do yet
-artificats:
+artifacts:
   files:
     - index.html
     - favicon.ico
     - AnubhavMaji-Resume.pdf
     - styles/main.css
     - images/*
-    
