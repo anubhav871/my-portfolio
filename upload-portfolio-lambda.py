@@ -8,7 +8,7 @@ s3 = boto3.resource('s3', config=Config(signature_version='s3v4'))
 
 portfolio_bucket = s3.Bucket('portfolio.anubhav4aws.com')
 
-build_bucket = s3.Bucket('portfolio.anubhav4aws.com')
+build_bucket = s3.Bucket('portfoliobuild.anubhav4aws.com')
 
 
 portfolio_zip = StringIO.StringIO()
