@@ -1,11 +1,10 @@
 import React from 'react';
-
-import { configure, shallow } from 'enzyme';
-import Adapter from 'enzyme-adapter-react-15';
-
+import {  shallow } from 'enzyme';
 import ExampleWorkModal from '../js/example-work-modal';
 
-configure({ adapter: new Adapter() });
+import Enzyme from 'enzyme';
+import Adapter from 'enzyme-adapter-react-16';
+Enzyme.configure({ adapter: new Adapter() });
 
 const myExample = {
   'title': "Work Example",
